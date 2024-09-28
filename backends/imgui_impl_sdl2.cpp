@@ -97,9 +97,9 @@
 #pragma clang diagnostic ignored "-Wimplicit-int-float-conversion"  // warning: implicit conversion from 'xxx' to 'float' may lose precision
 #endif
 
-// SDL
-#include <SDL.h>
-#include <SDL_syswm.h>
+// SDL2
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_syswm.h>
 #ifdef __APPLE__
 #include <TargetConditionals.h>
 #endif
